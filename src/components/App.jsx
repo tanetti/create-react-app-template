@@ -1,19 +1,28 @@
 import { GlobalStyles } from './GlobalStyles';
+import { PageTitle } from 'components/PageTitle/PageTitle';
+import { Section, Container } from './Shared';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React template
+    <main>
       <GlobalStyles />
-    </div>
+      <PageTitle title="REACT APP" />
+      <Section>
+        <Container>
+          <div
+            style={{
+              height: '100vh',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              fontSize: 40,
+              color: '#010101',
+            }}
+          >
+            React template
+          </div>
+        </Container>
+      </Section>
+    </main>
   );
 };
