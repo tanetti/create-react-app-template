@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
+export const VisuallyHiddenTitle = styled.h1`
   position: absolute;
   width: 1px;
   height: 1px;

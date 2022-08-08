@@ -1,6 +1,6 @@
-import { GlobalStyles } from './GlobalStyles';
+import { GlobalStyles } from 'components/GlobalStyles';
 import { PageTitle } from 'components/PageTitle/PageTitle';
-import { Section, Container } from './Shared';
+import { Section, Container } from 'components/Shared';
 
 export const App = () => {
   return (
